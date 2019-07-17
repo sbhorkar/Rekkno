@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D45DCF822DE4C3A00EF77C9 /* RekknoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RekknoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D45DCF822DE4C3A00EF77C9 /* Rekkno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rekkno.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D45DCFB22DE4C3A00EF77C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D45DCFD22DE4C3A00EF77C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D45DD0022DE4C3A00EF77C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		4D45DCF922DE4C3A00EF77C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D45DCF822DE4C3A00EF77C9 /* RekknoApp.app */,
+				4D45DCF822DE4C3A00EF77C9 /* Rekkno.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D45DCF722DE4C3A00EF77C9 /* RekknoApp */ = {
+		4D45DCF722DE4C3A00EF77C9 /* Rekkno */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D45DD0A22DE4C3B00EF77C9 /* Build configuration list for PBXNativeTarget "RekknoApp" */;
+			buildConfigurationList = 4D45DD0A22DE4C3B00EF77C9 /* Build configuration list for PBXNativeTarget "Rekkno" */;
 			buildPhases = (
 				4D45DCF422DE4C3A00EF77C9 /* Sources */,
 				4D45DCF522DE4C3A00EF77C9 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = RekknoApp;
+			name = Rekkno;
 			productName = RekknoApp;
-			productReference = 4D45DCF822DE4C3A00EF77C9 /* RekknoApp.app */;
+			productReference = 4D45DCF822DE4C3A00EF77C9 /* Rekkno.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4D45DCF322DE4C3A00EF77C9 /* Build configuration list for PBXProject "RekknoApp" */;
+			buildConfigurationList = 4D45DCF322DE4C3A00EF77C9 /* Build configuration list for PBXProject "Rekkno" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D45DCF722DE4C3A00EF77C9 /* RekknoApp */,
+				4D45DCF722DE4C3A00EF77C9 /* Rekkno */,
 			);
 		};
 /* End PBXProject section */
@@ -317,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D45DCF322DE4C3A00EF77C9 /* Build configuration list for PBXProject "RekknoApp" */ = {
+		4D45DCF322DE4C3A00EF77C9 /* Build configuration list for PBXProject "Rekkno" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D45DD0822DE4C3B00EF77C9 /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D45DD0A22DE4C3B00EF77C9 /* Build configuration list for PBXNativeTarget "RekknoApp" */ = {
+		4D45DD0A22DE4C3B00EF77C9 /* Build configuration list for PBXNativeTarget "Rekkno" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D45DD0B22DE4C3B00EF77C9 /* Debug */,
