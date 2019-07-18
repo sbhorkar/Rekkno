@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rekkno_Background_IOS_Sanaa" translatesAutoresizingMaskIntoConstraints="NO" id="XKI-jw-p6D">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rekkno" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nME-ir-bPH">
+                                <rect key="frame" x="107" y="135" width="162" height="71"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="50"/>
+                                <color key="textColor" red="0.92549019610000005" green="0.16862745100000001" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="fbg-ME-uAT">
+                                <rect key="frame" x="178" y="323" width="20" height="20"/>
+                                <color key="color" red="0.92549019610000005" green="0.16862745100000001" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nME-ir-bPH" secondAttribute="trailing" constant="106" id="6rj-bK-jlj"/>
+                            <constraint firstItem="nME-ir-bPH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="115" id="Cos-Dj-dRl"/>
+                            <constraint firstAttribute="bottom" secondItem="XKI-jw-p6D" secondAttribute="bottom" id="GBa-mt-oqv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fbg-ME-uAT" secondAttribute="trailing" constant="177" id="XiF-gA-Uyg"/>
+                            <constraint firstItem="fbg-ME-uAT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="178" id="fpn-du-PQD"/>
+                            <constraint firstItem="fbg-ME-uAT" firstAttribute="top" secondItem="nME-ir-bPH" secondAttribute="bottom" constant="117" id="frh-9Y-Up8"/>
+                            <constraint firstItem="XKI-jw-p6D" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fx8-FI-MYP"/>
+                            <constraint firstItem="XKI-jw-p6D" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gO1-Bv-w5Z"/>
+                            <constraint firstItem="nME-ir-bPH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="oYN-hR-mqD"/>
+                            <constraint firstItem="XKI-jw-p6D" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="vf8-gW-8YU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fbg-ME-uAT" secondAttribute="bottom" constant="324" id="zdB-al-R3J"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Rekkno_Background_IOS_Sanaa" width="345" height="586.5"/>
+    </resources>
+</document>
