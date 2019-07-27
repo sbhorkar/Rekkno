@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,14 +15,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Rekkno" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rekkno_Background_IOS_Sanaa" translatesAutoresizingMaskIntoConstraints="NO" id="jeD-CV-y5N">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2t1-lv-A6h">
-                                <rect key="frame" x="46" y="510" width="321" height="37"/>
+                                <rect key="frame" x="46" y="315" width="282" height="37"/>
                                 <color key="backgroundColor" red="0.159442693" green="0.31874525549999999" blue="0.58861869570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="20"/>
                                 <state key="normal" title="     Log in with Facebook">
@@ -33,13 +33,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rekkno" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHX-Rh-svL">
-                                <rect key="frame" x="106" y="159" width="201" height="71"/>
+                                <rect key="frame" x="106" y="135" width="162" height="71"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="50"/>
                                 <color key="textColor" red="0.92549019610000005" green="0.16862745100000001" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebook" translatesAutoresizingMaskIntoConstraints="NO" id="IYX-vs-nkL">
-                                <rect key="frame" x="93" y="510" width="33" height="37"/>
+                                <rect key="frame" x="93" y="486" width="46" height="85"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="R6u-UG-PHw"/>
                                     <constraint firstAttribute="width" constant="33" id="kZw-Hc-Z4l"/>
@@ -75,9 +75,20 @@
             <objects>
                 <viewController title="ViewController2" id="3uJ-hr-m1M" customClass="ViewController2" customModule="Rekkno" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9IF-C9-IKD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rekkno_Background_IOS_Sanaa" translatesAutoresizingMaskIntoConstraints="NO" id="bcj-qP-0ht">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bcj-qP-0ht" firstAttribute="top" secondItem="9IF-C9-IKD" secondAttribute="top" id="24n-yG-7Pt"/>
+                            <constraint firstItem="bcj-qP-0ht" firstAttribute="leading" secondItem="WS4-17-uhR" secondAttribute="leading" id="dub-Oq-tgT"/>
+                            <constraint firstItem="bcj-qP-0ht" firstAttribute="trailing" secondItem="WS4-17-uhR" secondAttribute="trailing" id="urg-O9-4AW"/>
+                            <constraint firstAttribute="bottom" secondItem="bcj-qP-0ht" secondAttribute="bottom" id="x9J-ho-jiQ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="WS4-17-uhR"/>
                     </view>
                 </viewController>
